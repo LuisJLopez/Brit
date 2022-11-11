@@ -8,16 +8,12 @@
 - [App settings](/app/settings.py)
 
 
-#### The tech stack:
-  - Backend - FastAPI, one reason being it was mentioned to me as the framework of choice
+#### The chosen tech stack:
+  - Deployed on the Heroku Cloud platform :cloud:
+  - Backend - FastAPI, one reason being it was mentioned to me as the framework of choice, good learning opportunity
   - Python version 3.9.15
   - SQLAlchemy / Alembic for ORM / DB / Migrations
   - Pip / Pipfile as package manager
   - Frontend - is Jinja 2 templates for simplicity
   - Database - PostgreSQL (Hosted on Heroku)
-  - I've create a Dockerfile and docker-compose - for development & portability reasons
-  
-
-
-
-
+  - I've create a Dockerfile and docker-compose - for development & portability reasons.
