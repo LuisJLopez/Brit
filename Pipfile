@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "*"
+black = "*"
+fastapi = "*"
+fastapi-sqlalchemy = "*"
+flake8 = "*"
+isort = "*"
+jinja2 = "*"
+python-dotenv = "*"
+psycopg = "*"
+starlette = "*"
+uvicorn = "*"
+psycopg2 = "*"
+python-multipart = "*"
+
+[requires]
+python_version = "3.9.15"
