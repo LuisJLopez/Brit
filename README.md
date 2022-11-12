@@ -17,3 +17,15 @@
   - Frontend - is Jinja 2 templates for simplicity
   - Database - PostgreSQL (Hosted on Heroku)
   - I've create a Dockerfile and docker-compose for development & portability reasons
+
+#### You want to run it?
+> Running it should be as simple as running the two cmds below:
+
+```
+$ docker-compose build && docker-compose up
+```
+
+```
+$ alembic upgrade head
+```
+
